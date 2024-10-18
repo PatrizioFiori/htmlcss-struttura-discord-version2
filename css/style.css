@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color:blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.page {
+    height: 800px;
+    width: 100%;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: powderblue;
+    border: 1px dashed black;
+}
+
+.topheader{
+    
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:aqua;
+    padding: 40px;
+    
+}
+
+.topheader > div {
+    padding: 10px;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login{
+    width: 25%;
+    background-color: sandybrown;
+}
+
+.logo{
+    width: 25%;
+    background-color: sandybrown;
+}
+
+.link{
+    width: 50%;
+    background-color: sandybrown;
+}
+
+
+/*da studiare per la questione MAX misura questa è venuta bene*/
+.bottomheader{
+    border: 1px dashed black;
+    width: 65%;
+    max-height: 65%;
+    margin-top: 40px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.immagini{
+    width: 65%;
+    height: 90%;
+    background-color: tan;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+.textbox{
+    width: 35%;
+    height: 90%;
+    background-color: red;
+    border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.finaltext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* FOOTER DA FINIRE
+
+.schedefooter{
+    display: flex;
+    width: 90%;
+    height: 90%;
+
+    border: 1px dashed black;
+}
+
+[mainsheet]{
+    background-color: blue;
+}
+
+.schedefooter{
+    background-color: yellow;
+    padding: 1px;
+} */
