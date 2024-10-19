@@ -113,22 +113,34 @@ body {
 }
 
 
-
-/* FOOTER DA FINIRE
+footer .page .container{
+    display: flex;
+    justify-content: center;
+}
 
 .schedefooter{
     display: flex;
+    align-items: center;
     width: 90%;
+    background-color: transparent;
     height: 90%;
-
     border: 1px dashed black;
 }
 
-[mainsheet]{
-    background-color: blue;
+.schedefooter>div{
+    width: 70%;
+    height: 100%;
+    background-color: gray;
+    border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.schedefooter{
-    background-color: yellow;
-    padding: 1px;
-} */
+.schedefooter>p{
+    height: 100%;
+    width: 30%;
+    background-color: lightslategray;
+    border: 1px dashed black;
+}
+
