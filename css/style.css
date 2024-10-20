@@ -15,6 +15,7 @@ body {
 .page {
     height: 800px;
     width: 100%;
+    max-width: 1600px;
     background-color: lightcoral;
     display: flex;
     flex-direction: column;
@@ -27,6 +28,7 @@ body {
     width: 80%;
     height: 80%;
     margin-top: 50px;
+    max-width: 900px;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -57,6 +59,9 @@ body {
 .login{
     width: 25%;
     background-color: sandybrown;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
 }
 
 .logo{
@@ -69,18 +74,14 @@ body {
     background-color: sandybrown;
 }
 
-
-/*da studiare per la questione MAX misura questa è venuta bene*/
-.bottomheader{
-    border: 1px dashed black;
-    width: 65%;
-    max-height: 65%;
-    margin-top: 40px;
-    background-color: pink;
+.bottomheadertextbox{
+    background-color: palevioletred;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    border: 1px dashed black;
 }
 
 .immagini{
@@ -143,4 +144,28 @@ footer .page .container{
     background-color: lightslategray;
     border: 1px dashed black;
 }
+
+.footerfooter{
+    width: 80%;
+    height: 10%;
+    background-color: burlywood;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px dashed black;
+}
+
+.footerfooter>button{
+    padding: 15px;
+    border: 1px dashed black;
+
+}
+
+.footerfooter>p{
+    padding: 15px;
+    border: 1px dashed black;
+
+}
+
 
