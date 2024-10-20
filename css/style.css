@@ -15,20 +15,19 @@ body {
 .page {
     height: 800px;
     width: 100%;
-    max-width: 1600px;
     background-color: lightcoral;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px dashed black;
 }
 
 .container {
     width: 80%;
     height: 80%;
     margin-top: 50px;
-    max-width: 900px;
+    max-width: 1000px;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -41,10 +40,11 @@ body {
     
     width: 100%;
     height: 80px;
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:aqua;
+    background-color:transparent;
     padding: 40px;
     
 }
@@ -149,6 +149,7 @@ footer .page .container{
     width: 80%;
     height: 10%;
     background-color: burlywood;
+    max-width: 1000px;
     margin-top: 50px;
     display: flex;
     align-items: center;
