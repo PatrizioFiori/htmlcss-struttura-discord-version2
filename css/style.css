@@ -15,12 +15,16 @@ body {
 .page { /*Struttura della pagina*/
     height: 800px;
     width: 100%;
-    background-color: lightcoral;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
     border: 1px dashed black;
+}
+
+.pageheader{
+    background-color:cadetblue;
 }
 
 .container { /*Struttura del container*/
