@@ -12,7 +12,7 @@ body {
 
 
 
-.page {
+.page { /*Struttura della pagina*/
     height: 800px;
     width: 100%;
     background-color: lightcoral;
@@ -23,7 +23,7 @@ body {
     border: 1px dashed black;
 }
 
-.container {
+.container { /*Struttura del container*/
     width: 80%;
     height: 80%;
     margin-top: 50px;
@@ -36,7 +36,9 @@ body {
     border: 1px dashed black;
 }
 
-.topheader{
+
+/*Topheader con logo, link e accedi*/
+.topheader{ 
     
     width: 100%;
     height: 80px;
@@ -74,7 +76,8 @@ body {
     background-color: sandybrown;
 }
 
-.bottomheadertextbox{
+/*Testo pagina 1*/
+.bottomheadertextbox{ 
     background-color: palevioletred;
     width: 100%;
     height: 100%;
@@ -84,7 +87,9 @@ body {
     border: 1px dashed black;
 }
 
-.immagini{
+
+/*Sezione immagini pag 2 - 5*/
+.immagini{ 
     width: 65%;
     height: 90%;
     background-color: tan;
@@ -95,7 +100,9 @@ body {
 
 }
  
-.textbox{
+
+/*Sezione testo pag 2 - 5*/
+.textbox{ 
     width: 35%;
     height: 90%;
     background-color: red;
@@ -106,7 +113,9 @@ body {
 
 }
 
-.finaltext{
+
+/*Sezione testo pag 6*/
+.finaltext{ 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,7 +154,9 @@ footer .page .container{
     border: 1px dashed black;
 }
 
-.footerfooter{
+
+/*Sezione logo e button*/
+.footerfooter{ 
     width: 80%;
     height: 10%;
     background-color: burlywood;
